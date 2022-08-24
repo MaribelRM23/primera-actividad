@@ -1,0 +1,35 @@
+body{
+    margin-left: 60rem;
+    background-image: url(./imagenes/descargas.gif);
+    background-size: 160rem;
+    background-repeat: no-repeat;
+}
+.boton{
+    border-radius: 5px;
+   border-style:groove;
+   border-color: blueviolet;
+}
+.boton:hover{
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+}
+.boton2{
+    background-color: rgb(57, 57, 57);
+    color: rgb(255, 255, 255);
+    border-color: rgba(240, 248, 255, 0.685);
+}
+
+.boton2:hover {
+    background-color: rgb(255, 208, 246);
+    color: black;
+    border-color: darkmagenta;
+}
+#formulario{
+    width: 30rem;
+    background-color: rgba(240, 248, 255, 0.685);
+    margin-left: 10rem;
+    margin-top: 30rem;
+    text-align: center;
+}
+
+

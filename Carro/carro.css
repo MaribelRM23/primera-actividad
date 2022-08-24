@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgba(137, 43, 226, 0.229);
+}
+section{
+    background-image: url(./imagenes/fondo\ \(1\).png);
+    width: 50rem;
+    height: 29rem;
+    margin-top: 10rem;
+    margin-left: 50rem;
+}
+.animaciones{
+    animation: fondo 3s linear infinite reverse;  
+    
+}
+@keyframes fondo{
+    100%{
+        background-position-x: 1284px ;
+    }
+}
+
+.carro{
+ position: absolute;
+ margin-top: 24rem;
+ margin-left: 15rem ;  
+}
+.llanta1{
+    position: absolute;
+    margin-top: 26rem;
+    margin-left: 16.5rem;
+}
+
+.llanta{
+    animation: 1s rotate linear infinite;  
+    
+}
+
+.llantaa{
+    animation: 1s rotate linear infinite;
+}
+
+@keyframes llantita{ from{transform: rotate(0deg);}
+to{transform: rotate(360deg);}}
+
+@-webkit-keyframes rotate{from{-webkit-transform: rotate(0deg);}
+to{-webkit-transform: rotate(360deg);}}
+
+
+.llanta2{
+    position: absolute;
+    margin-top: 26rem;
+    margin-left: 24.2rem;
+   
+}
+@keyframes llantita2{ from{transform: rotate(0deg);}
+to{transform: rotate(360deg);}}
+@-webkit-keyframes rotate{from{-webkit-transform: rotate(0deg);}
+to{-webkit-transform: rotate(360deg);}}
+
+.humo{
+    background-image: url(./imagenes/humo.png);
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    margin-top: 23rem;
+    margin-left: 11rem;
+}
+.humos{
+    animation: humito 1s steps(5)infinite reverse
+}
+@keyframes humito{
+    100%{
+        background-position-x: 412px;
+    }
+}
